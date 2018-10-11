@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 void main()
+
 {
+   
     int i;
 
     int a[n];
@@ -12,9 +14,13 @@ void main()
     for(int i = o;i < n; ++i)
 
         c[i] = a[i] - b[i]
+
 {
+    
     printf("%d",c[i]);
+
 }
+
 }
 
 **2**
