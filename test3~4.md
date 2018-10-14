@@ -1,3 +1,28 @@
+**3**
+#include<stdio.h>
+int main()
+{
+    int *Array
+    int a[10];
+    Array=(int *)malloc(n*sizeof(int));
+    int j,i,temp;
+    printf("请输入数组：");
+    for(i=0 ; i<10 ; i++){
+        scanf("%d",&a[i]);
+    }
+    for(j=0 ; j<5 ; j++){
+    temp = a[j];
+    a[j] = a[10-j-1];
+    a[10-j-1] = temp;
+    a[j] = a[j] ^ a[10 - j -1];
+    a[10 - j - 1] = a[10 - j - 1] ^ a[j];
+    a[j] = a[j] ^ a[10 - j -1];
+    }
+    for(i=0 ; i<10 ;i++)
+    printf("%d ",a[i]);
+}
+
+
 **4**
 *1* 
 #include <stdio.h>
